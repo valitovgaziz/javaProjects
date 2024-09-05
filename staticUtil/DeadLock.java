@@ -21,7 +21,7 @@ public class DeadLock {
                 A.unlock();
                 B.unlock();
             }
-            System.out.println("Thread A and B locks");
+            System.out.println("Reasouces A and B locks");
         }).start();
 
     
@@ -36,7 +36,7 @@ public class DeadLock {
                 B.unlock();
                 A.unlock();
             }
-            System.out.println("Thread A and B locks");
+            System.out.println("Reasouces A and B locks");
         }).start();
     }
 }
